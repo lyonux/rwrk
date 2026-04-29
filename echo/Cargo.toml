@@ -1,0 +1,11 @@
+[package]
+name = "echo"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+axum = { version = "0.8.8", features = ["ws"] }
+serde = { version = "1.0.228", features = ["derive"] }
+tokio = { version = "1.49.0", features = ["rt-multi-thread"] }
+tokio-tungstenite = "0.26"
+futures-util = "0.3"

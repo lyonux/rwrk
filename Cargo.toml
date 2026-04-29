@@ -1,0 +1,3 @@
+[workspace]
+members = ["pon", "enroll", "rwrk", "rgrpc"]
+resolver = "3"
